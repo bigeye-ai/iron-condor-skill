@@ -81,7 +81,7 @@ Put 侧止损触发：标的价格 < XXXX（跌破 short put 以下 X 点）
 - Put Wall 以下 5–10 点 = short put 理想区域（SPX）
 - QQQ/SPY 对应缩小为 0.5–1.5 点
 
-**GEX 数据来源**（用户需提供，或使用 GEX Map 数据）：
+**GEX 数据来源**（用户需提供）：
 > 如果用户提供了 GEX 数据，优先使用。如果没有，基于 IV/VIX 和技术面估算，
 > 并在输出中注明"未获取 GEX 数据，以 IV 区间估算"。
 
@@ -357,7 +357,7 @@ Put 侧止损：SPX 5min 收线 < 5455 → 立即平 Put 价差
 | 当前标的价格 | 必须 | SPX/QQQ/SPY 实时价 |
 | 到期日 | 必须 | 0DTE / 具体日期 |
 | VIX 当前值 | 高 | 用于 IV 区间计算 |
-| GEX Call Wall | 高 | 来自 GEX Map 或 SpotGamma |
+| GEX Call Wall | 高 | 用户提供 |
 | GEX Put Wall | 高 | 同上 |
 | Zero Gamma Line | 中 | 可选，影响风险评级 |
 | 当日重大事件 | 高 | FOMC/CPI 等 |
