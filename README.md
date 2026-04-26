@@ -42,5 +42,7 @@ irm https://raw.githubusercontent.com/bigeye-ai/iron-condor-skill/main/install.p
 ```
 
 ---
+## Related
+- 📊 [Price Action Skill](https://github.com/bigeye-ai/price-action-skill) — ICT + GEX chart analysis skill
 
 [繁體中文版本 (Traditional Chinese - HK)](./README_zh_HK.md)
